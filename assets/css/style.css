@@ -785,6 +785,7 @@ footer {
     border-bottom:1px solid #CCC;
     outline:0;
     margin-top:10px;
+    color: #CCC;
 }
 .section-contact textarea {
     height:100px;
