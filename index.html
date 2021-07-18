@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <title>Landing Page - Hiring Coders</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "preconnect" href = "https://fonts.googleapis.com">
     <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
     <link href = "https: //fonts.googleapis.com/css2? family = Montserrat: wght @ 300; 400; 600; 700 & display = swap "rel =" stylesheet "/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+    <title>Landing Page - Hiring Coders - GEEK INFO</title>
 </head>
 <body>
 <header>
@@ -251,15 +253,18 @@
     <div class="section-body-black">
       <div class="section-body-blackfriday--left">
         <img src="media/cadastre.jpg">
-        </div>
+      </div>
       <div class="section-body-blackfriday--right">
-        <div class="section-contact">         
-            <form method="POST">
+        <div class="section-contact" id="section-contact">         
+            <form id="form">
+              <p><h3>Cadastre-se e receba as melhores ofertas</h3></p><br>
+              <div class="section-contact--split">
+                  <input type="text" name="nome" id="nome" placeholder="NOME" required/>
+              </div>
                 <div class="section-contact--split">
-                  <p><h3>Cadastre-se e receba as melhores ofertas</h3</p>
-                    <input type="text" name="email" id="email" placeholder="EMAIL"/>
+                    <input type="text" name="email" id="email" placeholder="EMAIL" required/>
                 </div>
-                <input type="submit" value="Cadastrar" class="button"/>
+                <input type="submit" value="Cadastro" class="button"/>
               </form>
         </div>
       </div>
@@ -293,4 +298,5 @@
 </div>
 </footer>
 </body>
+  <script src="js/script.js"></script>
 </html>
